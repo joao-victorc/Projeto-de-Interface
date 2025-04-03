@@ -1,0 +1,14 @@
+/*Primeiros passos do CSS*/
+body { 
+    background-color: aqua;
+    border: red solid 1px;
+
+}
+p {
+    text-align: center;
+    margin: 20px auto;
+
+}
+h2 {
+    color: brown;
+}
