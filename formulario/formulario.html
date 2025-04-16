@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Projeto Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Formulário</h1>
+
+  <form>
+    <fieldset>
+      <legend>Informações</legend>
+
+      <label>Nome: <input type="text" name="nome"></label><br>
+      <label>Email: <input type="email" name="email"></label><br>
+      <label>Idade: <input type="number" name="idade"></label><br>
+      <label>Senha: <input type="password" name="senha"></label><br>
+      <label>Data: <input type="date" name="data"></label><br>
+      <label>Cor favorita: <input type="color" name="cor"></label><br>
+      <label>Arquivo: <input type="file" name="arquivo"></label><br>
+      <label>Comentários:<br><textarea name="comentario"></textarea></label><br>
+
+      <p>Sexo:</p>
+      <label><input type="radio" name="sexo" value="M" required> Masculino</label><br>
+      <label><input type="radio" name="sexo" value="F"> Feminino</label><br>
+
+      <p>Interesses:</p>
+      <label><input type="checkbox" name="interesse1" value="tecnologia" required> Tecnologia</label><br>
+      <label><input type="checkbox" name="interesse2" value="esportes"> Esportes</label><br>
+
+      <label>País:
+        <select name="pais">
+          <option>Brasil</option>
+          <option>Portugal</option>
+          <option>Outros</option>
+        </select>
+      </label><br>
+
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </fieldset>
+  </form>
+
+  <p class="creditos">Créditos: Criado por João.</p>
+</body>
+</html>
